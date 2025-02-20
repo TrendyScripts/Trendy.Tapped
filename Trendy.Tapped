@@ -14,14 +14,35 @@ cf1:Credit("xHeptc: UI Library")
 local cf2 = creditsTab:Section("Helping Credits")
 cf2:Credit("Salad: Helping")
 
-local Examples = Luxt:Tab("Gui Scripts")
-local ff = Examples:Section("Gui Scripts")
-ff:Label("Welcome to Gui Scripts")
+local Examples = Luxt:Tab("Da Hood Scripts")
+local ff = Examples:Section("Da Hood Scripts")
+ff:Label("Welcome to Da Hood Scripts")
+
+ff:Button("Psalms.Tech Free", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/psalms%20old.lua"))()
+end)
+
 ff:Button("Psalms.Tech", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/cc34beefcf58fae8a4b9f8fc946cbc6f/raw/34e758b5c6d764fca98833073ac491dad2d34537/gistfile1.txt"))()
 end)
+
 ff:Button("Patz.lol", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/cc34beefcf58fae8a4b9f8fc946cbc6f/raw/34e758b5c6d764fca98833073ac491dad2d34537/gistfile1.txt"))()
+end)
+
+ff:Button("StarHook Mobile", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
+end)
+
+local Examples = Luxt:Tab("Keyboard Scripts")
+local ff = Examples:Section("Keyboard Scripts")
+ff:Label("Welcome to Keyboard Scripts")
+
+ff:Button("Keyboard Buttons Script", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
 end)
