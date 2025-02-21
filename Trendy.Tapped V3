@@ -26,7 +26,7 @@ end)
 
 ff:Button("Patz.lol (Paid) (Leaked)", function()
     print("Clicked!")
-loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/cc34beefcf58fae8a4b9f8fc946cbc6f/raw/34e758b5c6d764fca98833073ac491dad2d34537/gistfile1.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Patz.lol%20working"))()
 end)
 
 ff:Button("StarHook Mobile (Paid) (Leaked)", function()
