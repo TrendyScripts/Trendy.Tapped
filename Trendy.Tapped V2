@@ -10,28 +10,52 @@ cf1:Credit("xHeptc: UI Library")
 local cf2 = creditsTab:Section("Creator Credits")
 cf2:Credit("Trendy: Script Creator")
 
-local Examples = Luxt:Tab("🌟Best Da Hood Scripts")
-local ff = Examples:Section("🌟Best Da Hood Scripts")
-ff:Label("Welcome to 🌟Best Da Hood Scripts")
+local Examples = Luxt:Tab("🌟Best Mobile Da Hood Scripts")
+local ff = Examples:Section("🌟Best Mobile Da Hood Scripts")
+ff:Label("Welcome to 🌟Best Mobile Da Hood Scripts")
 
-ff:Button("Psalms.Tech Free", function()
+ff:Button("Psalms.Tech (Free)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/psalms%20old.lua"))()
 end)
 
-ff:Button("Psalms.Tech", function()
+ff:Button("Psalms.Tech (Paid)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/cc34beefcf58fae8a4b9f8fc946cbc6f/raw/34e758b5c6d764fca98833073ac491dad2d34537/gistfile1.txt"))()
 end)
 
-ff:Button("Patz.lol", function()
+ff:Button("Patz.lol (Paid)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/cc34beefcf58fae8a4b9f8fc946cbc6f/raw/34e758b5c6d764fca98833073ac491dad2d34537/gistfile1.txt"))()
 end)
 
-ff:Button("StarHook Mobile", function()
+ff:Button("StarHook Mobile (Paid)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
+end)
+
+local Examples = Luxt:Tab("🌟Best Pc Da Hood Scripts")
+local ff = Examples:Section("🌟Best Pc Da Hood Scripts")
+ff:Label("Welcome to 🌟Best Pc Da Hood Scripts")
+
+ff:Button("Nyula (Free) (PC)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyula", true))()
+end)
+
+ff:Button("StarHook (Free) (Pc)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/StarHook%20Pc"))()
+end)
+
+ff:Button("SankyBox (Paid) (Pc)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/aaa", true))()
+end)
+
+ff:Button("Azure Modded (Free) (Pc)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
 end)
 
 local Examples = Luxt:Tab("Mobile Lock Scripts")
