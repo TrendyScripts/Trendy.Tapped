@@ -34,6 +34,24 @@ ff:Button("StarHook Mobile", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
 end)
 
+local Examples = Luxt:Tab("Mobile Lock Scripts")
+local ff = Examples:Section("Mobile Lock Scripts")
+ff:Label("Welcome to Mobile Lock Scripts")
+
+ff:Button("Pluh V1", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsun124/pluh-s-properties/main/v1-official.txt"))();
+end)
+
+local Examples = Luxt:Tab("Resolver Scripts")
+local ff = Examples:Section("Resolver Scripts")
+ff:Label("Welcome to Resolver Scripts")
+
+ff:Button("Op Resolver", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/FuckRoblox/main/ResolverV1.lua"))();
+end)
+
 local Examples = Luxt:Tab("Keyboard Scripts")
 local ff = Examples:Section("Keyboard Scripts")
 ff:Label("Welcome to Keyboard Scripts")
