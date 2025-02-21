@@ -43,6 +43,24 @@ ff:Button("Pluh V1", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsun124/pluh-s-properties/main/v1-official.txt"))();
 end)
 
+local Examples = Luxt:Tab("Mobile Silent Aim Scripts")
+local ff = Examples:Section("Mobile Silent Aim Scripts")
+ff:Label("Welcome to Mobile Silent Aim Scripts")
+
+ff:Button("Mobile Rainbow Silent Aim", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Mobile%20Rainbow%20Silent"))();
+end)
+
+local Examples = Luxt:Tab("Pc Silent Aim Scripts")
+local ff = Examples:Section("Pc Silent Aim Scripts")
+ff:Label("Welcome to Pc Silent Aim Scripts")
+
+ff:Button("Yuth Silent", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Yuth%20Silent"))();
+end)
+
 local Examples = Luxt:Tab("Resolver Scripts")
 local ff = Examples:Section("Resolver Scripts")
 ff:Label("Welcome to Resolver Scripts")
