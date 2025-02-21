@@ -1,6 +1,6 @@
 local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
 
-local Luxt = Luxtl.CreateWindow("Trendy.Tapped V2", 6105620301)
+local Luxt = Luxtl.CreateWindow("Trendy.Tapped V3", 6105620301)
 
 local creditsTab = Luxt:Tab("Credits")
 local cf = creditsTab:Section("Main Credits")
@@ -32,6 +32,11 @@ end)
 ff:Button("StarHook Mobile (Paid)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
+end)
+
+ff:Button("Frost.lol ", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Csabi6/Frost-lol/refs/heads/main/Frost.lol"))()
 end)
 
 local Examples = Luxt:Tab("🌟Best Pc Da Hood Scripts")
