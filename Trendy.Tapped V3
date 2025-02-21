@@ -14,29 +14,34 @@ local Examples = Luxt:Tab("🌟Best Mobile Da Hood Scripts")
 local ff = Examples:Section("🌟Best Mobile Da Hood Scripts")
 ff:Label("Welcome to 🌟Best Mobile Da Hood Scripts")
 
-ff:Button("Psalms.Tech (Free)", function()
+ff:Button("Psalms.Tech (Free) (Leaked)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/psalms%20old.lua"))()
 end)
 
-ff:Button("Psalms.Tech (Paid)", function()
+ff:Button("Psalms.Tech (Paid) (Leaked)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/cc34beefcf58fae8a4b9f8fc946cbc6f/raw/34e758b5c6d764fca98833073ac491dad2d34537/gistfile1.txt"))()
 end)
 
-ff:Button("Patz.lol (Paid)", function()
+ff:Button("Patz.lol (Paid) (Leaked)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/cc34beefcf58fae8a4b9f8fc946cbc6f/raw/34e758b5c6d764fca98833073ac491dad2d34537/gistfile1.txt"))()
 end)
 
-ff:Button("StarHook Mobile (Paid)", function()
+ff:Button("StarHook Mobile (Paid) (Leaked)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
 end)
 
-ff:Button("Frost.lol (Paid)", function()
+ff:Button("Frost.lol (Paid) (Leaked)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Csabi6/Frost-lol/refs/heads/main/Frost.lol"))()
+end)
+
+ff:Button("Skibidi Hook (Free) (Leaked)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://pastebin.com/raw/SvLaydLR",true))()
 end)
 
 local Examples = Luxt:Tab("🌟Best Pc Da Hood Scripts")
