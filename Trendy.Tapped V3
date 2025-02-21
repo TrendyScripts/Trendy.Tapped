@@ -34,7 +34,7 @@ ff:Button("StarHook Mobile (Paid)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
 end)
 
-ff:Button("Frost.lol ", function()
+ff:Button("Frost.lol (Paid)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Csabi6/Frost-lol/refs/heads/main/Frost.lol"))()
 end)
