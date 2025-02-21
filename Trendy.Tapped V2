@@ -1,6 +1,6 @@
 local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
 
-local Luxt = Luxtl.CreateWindow("Trendy.Tapped", 6105620301)
+local Luxt = Luxtl.CreateWindow("Trendy.Tapped V2", 6105620301)
 
 local creditsTab = Luxt:Tab("Credits")
 local cf = creditsTab:Section("Main Credits")
@@ -42,6 +42,16 @@ ff:Button("Pluh V1", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsun124/pluh-s-properties/main/v1-official.txt"))();
 end)
+
+local Examples = Luxt:Tab("Pc Streamable Scripts")
+local ff = Examples:Section("Pc Stremable Scripts")
+ff:Label("Welcome to Pc Streamable Scripts")
+
+ff:Button("Nyula V5", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Nyula%20V5%20Streamable"))();
+end)
+
 
 local Examples = Luxt:Tab("Mobile Silent Aim Scripts")
 local ff = Examples:Section("Mobile Silent Aim Scripts")
