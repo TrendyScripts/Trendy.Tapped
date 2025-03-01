@@ -24,6 +24,11 @@ ff:Button("Frost.lol (Mobile) (Free) (Leaked)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Csabi6/Frost-lol/refs/heads/main/Frost.lol"))()
 end)
 
+ff:Button("Cactus.GG (Mobile) (Free) (Leaked)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/veerve/Cactus.gg/refs/heads/main/cactus.gg%20(2).txt",true))()
+end)
+
 ff:Button("Skibidi.Hook (Mobile) (Free) (Leaked)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://pastebin.com/raw/SvLaydLR",true))()
