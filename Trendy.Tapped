@@ -75,6 +75,19 @@ ff:Button("Op Resolver", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/FuckRoblox/main/ResolverV1.lua"))()
 end)
 
+local ff = Examples:Section(" Mobile Da Hood Macro Scripts")
+ff:Label("Welcome to Mobile Da Hood Macro Scripts")
+
+ff:Button("Legit Macro V1", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/macromobbyballigusapo"))()
+end)
+
+ff:Button("Legit Macro V2", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/MacroBalli"))()
+end)
+
 local Examples = Luxt:Tab("Pc Da Hood Lock Scripts", 11767037107)
 local ff = Examples:Section("Free Pc Da Hood Lock Scripts")
 ff:Label("Welcome to Paid Pc Da Hood Lock Scripts")
@@ -107,13 +120,19 @@ end)
 
 local ff = Examples:Section("Pc Da Hood Anti-Lock Scripts")
 ff:Label("Welcome to Pc Da Hood Anti-Lock Scripts")
-ff:Button("TextButton Text", function()
+ff:Button("Coming Soon", function()
     print("Clicked!")
 end)
 
 local ff = Examples:Section("Pc Da Hood Resolver Scripts")
 ff:Label("Welcome to Pc Da Hood Resolver Scripts")
-ff:Button("TextButton Text", function()
+ff:Button("Coming Soon", function()
+    print("Clicked!")
+end)
+
+local ff = Examples:Section(" Pc Da Hood Macro Scripts")
+ff:Label("Welcome to Pc Da Hood Macro Scripts")
+ff:Button("Coming Soon", function()
     print("Clicked!")
 end)
 
