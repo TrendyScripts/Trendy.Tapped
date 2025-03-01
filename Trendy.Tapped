@@ -146,7 +146,7 @@ ff:Button("Coming Soon", function()
     print("Clicked!")
 end)
 
-local Examples = Luxt:Tab("Keyboard Scripts", 11767037107)
+local Examples = Luxt:Tab("Useful Scripts", 11767037107)
 local ff = Examples:Section("Keyboard Scripts")
 ff:Label("Welcome to Keyboard Scripts")
 
@@ -158,6 +158,21 @@ end)
 ff:Button("Delta Keyboard", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+end)
+
+local ff = Examples:Section("ShiftLock Scripts")
+ff:Label("Welcome to ShiftLock Scripts")
+ff:Button("Khens ShiftLock", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/shift%20lock.txt", true))();
+end)
+
+
+local ff = Examples:Section("Quick Rejoin Script")
+ff:Label("Welcome to Quick Rejoin Script")
+ff:Button("Quick Rejoin", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jelly-plays/Rejoin-script/main/obf_L744By559M18BbuseSG6en8r1zL31daK9060LV7WyvmS4bQp92aONWfwRE36FdcZ.lua.txt"))();
 end)
 
 local Examples = Luxt:Tab("Examples", 11767037107)
