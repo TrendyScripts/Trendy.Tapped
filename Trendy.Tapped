@@ -93,6 +93,11 @@ ff:Button("Legit Macro V2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/MacroBalli"))()
 end)
 
+ff:Button("Macro Made By khen.cc", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/MacroMobile.txt", true))();
+end)
+
 local Examples = Luxt:Tab("Pc Da Hood Lock Scripts", 11767037107)
 local ff = Examples:Section("Free Pc Da Hood Lock Scripts")
 ff:Label("Welcome to Paid Pc Da Hood Lock Scripts")
