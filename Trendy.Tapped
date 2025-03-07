@@ -160,13 +160,39 @@ ff:Button("Delta Keyboard", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
 end)
 
-local ff = Examples:Section("ShiftLock Scripts")
-ff:Label("Welcome to ShiftLock Scripts")
-ff:Button("Khens ShiftLock", function()
+local ff = Examples:Section("Target Player Scripts")
+ff:Label("Welcome to Target Player Scripts")
+ff:Button("Victim Menu", function()
     print("Clicked!")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/shift%20lock.txt", true))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
 end)
 
+ff:Button("Auto Target Fling", function()
+    print("Clicked!")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Auto%20Fling%20Player'))()
+end)
+
+ff:Button("Anti-Fling", function()
+    print("Clicked!")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Linux6699/DaHubRevival/main/AntiFling.lua'))()
+end)
+
+ff:Button("Anti-Fling V2", function()
+    print("Clicked!")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Anti-Fling%20V2'))()
+end)
+
+ff:Button("Anti-Fling V3", function()
+    print("Clicked!")
+loadstring(game:HttpGet(('https://pastebin.com/raw/GxdesRQx'),true))()
+end)
+
+ff:Button("Mouse Fling", function()
+    print("Clicked!")
+loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
+end)
+
+loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
 
 local ff = Examples:Section("Quick Rejoin Script")
 ff:Label("Welcome to Quick Rejoin Script")
