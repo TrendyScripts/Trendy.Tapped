@@ -192,8 +192,6 @@ ff:Button("Mouse Fling", function()
 loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
 end)
 
-loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
-
 local ff = Examples:Section("Quick Rejoin Script")
 ff:Label("Welcome to Quick Rejoin Script")
 ff:Button("Quick Rejoin", function()
