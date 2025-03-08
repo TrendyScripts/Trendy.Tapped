@@ -111,6 +111,13 @@ ff:Button("Azure Modded (Free) (Pc)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
 end)
 
+ff:Button("Chants.wtf (Free) (Pc)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/faisal31312/chants/refs/heads/main/chants.lua"))()
+end)
+
+
+
 local ff = Examples:Section("Paid Pc Da Hood Lock Scripts")
 ff:Label("Welcome to Paid Pc Da Hood Lock Scripts")
 ff:Button("StarHook (Paid) (Pc)", function()
@@ -127,6 +134,19 @@ ff:Button("VIN9 (Paid) (PC)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/VIN9"))()
 end)
+
+local ff = Examples:Section("Free Pc Da Hood Gui Scripts")
+ff:Label("Welcome to Free Pc Da Hood Gui Scripts")
+ff:Button("Anti 2.15 (Free) (Pc)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/flanchhh/AntiV2/refs/heads/main/Anti%20v2.lua"))();
+end)
+
+ff:Button("Skido V3 (Free) (Pc)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yuvic123/SKIDO-V3/refs/heads/main/%40Siom4i_"))()
+end)
+
 
 local ff = Examples:Section("Pc Da Hood Anti-Lock Scripts")
 ff:Label("Welcome to Pc Da Hood Anti-Lock Scripts")
