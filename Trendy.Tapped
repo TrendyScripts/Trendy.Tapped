@@ -66,6 +66,21 @@ ff:Button("StarHook (Mobile) (Paid) (Leaked)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
 end)
 
+local ff = Examples:Section("Free Mobile Da Hood Gui Scripts")
+ff:Label("Welcome to Free Mobile Da Hood Gui Scripts")
+ff:Button("Skido V2 (Free) (Mobile)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yuvic123/Skido-V2/refs/heads/main/Siom4i_"))()
+end)
+
+local ff = Examples:Section("Paid Mobile Da Hood Gui Scripts")
+ff:Label("Welcome to Free Mobile Da Hood Gui Scripts")
+ff:Button("Probably Not Coming Soon", function()
+    print("Clicked!")
+-- Put Script Here
+end)
+
+
 local ff = Examples:Section("Mobile Da Hood AntiLock Scripts")
 ff:Label("Welcome to Mobile Da Hood AntiLock Scripts")
 ff:Button("Kirbsware Antilock", function()
@@ -137,15 +152,28 @@ end)
 
 local ff = Examples:Section("Free Pc Da Hood Gui Scripts")
 ff:Label("Welcome to Free Pc Da Hood Gui Scripts")
-ff:Button("Anti 2.15 (Free) (Pc)", function()
+ff:Button("Anti V2.15 (Free) (Pc)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/flanchhh/AntiV2/refs/heads/main/Anti%20v2.lua"))();
+end)
+
+ff:Button("Anti V3 (Free) (Pc)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Anti%20V3"))();
 end)
 
 ff:Button("Skido V3 (Free) (Pc)", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/yuvic123/SKIDO-V3/refs/heads/main/%40Siom4i_"))()
 end)
+
+local ff = Examples:Section("Paid Pc Da Hood Gui Scripts")
+ff:Label("Welcome to Paid Pc Da Hood Gui Scripts")
+ff:Button("Probably Not Coming Soon", function()
+    print("Clicked!")
+-- Put Script Here
+end)
+
 
 
 local ff = Examples:Section("Pc Da Hood Anti-Lock Scripts")
@@ -191,6 +219,12 @@ ff:Button("Auto Target Fling", function()
     print("Clicked!")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Auto%20Fling%20Player'))()
 end)
+
+ff:Button("Fling All", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))() 
+end)
+
 
 ff:Button("Anti-Fling", function()
     print("Clicked!")
