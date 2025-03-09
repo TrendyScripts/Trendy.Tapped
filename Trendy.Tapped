@@ -128,6 +128,11 @@ ff:Button("Nuker Mode Macro", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Nuker%20Mode%20Macro"))()
 end)
 
+ff:Button("Tp Walk By Akam", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/veerve/TpWalk-By-Akam/refs/heads/main/TpWalk%20By%20Akam.txt"))()
+end)
+
 local Examples = Luxt:Tab("Pc Da Hood Lock Scripts", 11767037107)
 local ff = Examples:Section("Free Pc Da Hood Lock Scripts")
 ff:Label("Welcome to Paid Pc Da Hood Lock Scripts")
