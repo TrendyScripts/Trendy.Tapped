@@ -1,4 +1,4 @@
- local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
+local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
 
 local Luxt = Luxtl.CreateWindow("Trendy.Tapped V3.1", 5143056985)
 
@@ -66,6 +66,11 @@ ff:Button("StarHook (Mobile) (Paid) (Leaked)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkids/StarestOfTheHookMobile/refs/heads/main/TheFallenAngels.lua"))();
 end)
 
+ff:Button("Sucide.lol (Mobile) (Paid) (Leaked)", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Suicide.lol"))()
+end)
+
 local ff = Examples:Section("Free Mobile Da Hood Gui Scripts")
 ff:Label("Welcome to Free Mobile Da Hood Gui Scripts")
 ff:Button("Skido V2 (Free) (Mobile)", function()
@@ -108,9 +113,19 @@ ff:Button("Legit Macro V2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/MacroBalli"))()
 end)
 
+ff:Button("Legit Macro V3", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Macro%20V3"))()
+end)
+
 ff:Button("Macro Made By khen.cc", function()
     print("Clicked!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/MacroMobile.txt", true))();
+end)
+
+ff:Button("Nuker Mode Macro", function()
+    print("Clicked!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrendyScripts/Da-Hood-Scripts-Shortened/refs/heads/main/Nuker%20Mode%20Macro"))()
 end)
 
 local Examples = Luxt:Tab("Pc Da Hood Lock Scripts", 11767037107)
